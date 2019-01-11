@@ -1,0 +1,28 @@
+# Navigation
+
+alias C='cd ~/C'
+alias D='cd ~/Downloads'
+
+# Command shortcuts
+
+alias src='source'
+alias ll='ls -1a'
+
+# Git shortcuts
+
+alias gits='git status'
+alias gitp='git push'
+
+# Python
+
+alias m='python manage.py'
+alias env='source env/bin/activate'
+
+# Environment variables
+
+export PATH="$HOME/.dynamic-colors/bin:$PATH"
+source $HOME/.dynamic-colors/completions/dynamic-colors.zsh
+
+# Other configs
+
+source ~/.profile_local
