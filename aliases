@@ -1,7 +1,10 @@
 # Navigation
 
 alias C='cd ~/C'
-alias D='cd ~/Downloads'
+alias C='cd ~/D'
+alias T='cd ~/T'
+alias P='cd ~/P'
+alias V='cd ~/V'
 
 # Command shortcuts
 
@@ -12,16 +15,28 @@ alias ll='ls -1a'
 
 alias gits='git status'
 alias gitp='git push'
+alias gitpl='git pull'
 
 # Python
 
 alias m='python manage.py'
 alias env='source env/bin/activate'
 
+# Projects
+
+alias lem='cd ~/C/Lem'
+
 # Environment variables
 
 export PATH="$HOME/.dynamic-colors/bin:$PATH"
 source $HOME/.dynamic-colors/completions/dynamic-colors.zsh
+
+# Dynamic colors
+
+alias sodd='dynamic-colors switch solarized-dark-desaturated'
+alias sol='dynamic-colors switch solarized-light'
+alias sold='dynamic-colors switch solarized-light-desaturated'
+alias sod='dynamic-colors switch solarized-dark'
 
 # Other configs
 

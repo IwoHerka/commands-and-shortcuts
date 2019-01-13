@@ -1,1 +1,1 @@
-chmod +x cpaliases.sh
+chmod +x sync_aliases.sh
