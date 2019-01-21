@@ -10,12 +10,17 @@ alias V='cd ~/V'
 
 alias src='source'
 alias ll='ls -1a'
+alias inissh='eval $(ssh-agent); ssh-add ~/.ssh/iwoherka.eu'
 
 # Git shortcuts
 
-alias gits='git status'
-alias gitp='git push'
-alias gitpl='git pull'
+alias gs='git status'
+alias gp='git push'
+alias gpf='git push --force'
+alias gpl='git pull'
+alias gresethead='git reset --mixed HEAD~1'
+alias gcorrect='git commit --amend --no-edit'
+alias gc='git commit'
 
 # Python
 
